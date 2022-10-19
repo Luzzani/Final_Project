@@ -1,0 +1,70 @@
+.card__content {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 17px 0 black;
+    transition: all .5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.283);
+}
+
+.card__content:nth-child(odd):hover {
+    background-color: var(--color-light);
+    border: 1px solid #000;
+    border-radius: 5%;
+    transform: rotate(1deg);
+}
+
+.card__content:nth-child(2n):hover {
+    background-color: var(--color-light);
+    border: 1px solid #000;
+    border-radius: 5%;
+    transform: rotate(-1deg);
+}
+
+.card__title {
+    margin: 0;
+    font-size: var(--font-size-h3);
+    color: var(--color-white);
+    text-shadow: 0 12px 17px var(--color-bg);
+}
+
+.card__title:hover {
+    text-shadow: 0 12px 17px #000;
+    cursor: pointer;
+}
+
+.card__title-recipe {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    text-shadow: var(--text-shadow);
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: .4rem;
+    background-color: var(--color-bg);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.card__healthscore {
+    width: 100%;
+    font-size: var(--font-size-p);
+    text-align: center;
+    padding: .1rem 1rem .1rem 1rem;
+    box-shadow: var(--box-shadow);
+    color: yellowgreen;
+    background-color: var(--color-bg);
+}
+
+.card__image-product {
+    max-width: 100%;
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+}

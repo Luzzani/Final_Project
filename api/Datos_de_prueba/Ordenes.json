@@ -1,0 +1,75 @@
+[
+    {
+        "Marca temporal": "10\/14\/2022 13:55:51",
+        "concept": "Mensualidad",
+        
+        "value": 40000,
+        "description": "Octubre",
+        "payment_term": "10\/21\/2022",
+        "payment_mode": "Efectivo",
+        "order_state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/14\/2022 13:56:42",
+        "concept": "Mensualidad",
+        
+        "value": 40000,
+        "description": "Agosto",
+        "payment_term": "09\/21\/2022",
+        "payment_mode": "Transferencia",
+        "order_state": "Paid",
+        "payment_date": "09\/15\/2022"
+    },
+    {
+        "Marca temporal": "10\/14\/2022 13:57:36",
+        "concept": "Mensualidad",
+        
+        "value": 35000,
+        "description": "Octubre",
+        "payment_term": "10\/28\/2022",
+        "payment_mode": "PayU",
+        "order_state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/14\/2022 13:58:42",
+        "concept": "Mensualidad",
+        
+        "value": 45000,
+        "description": "Agosto",
+        "payment_term": "09\/30\/2022",
+        "payment_mode": "Efectivo",
+        "order_state": "Deleted"
+    },
+    {
+        "Marca temporal": "10\/14\/2022 14:02:41",
+        "concept": "Compra por app",
+        
+        "value": 77000,
+        "description": "Camisa mujer, Licra ",
+        "payment_term": "11\/04\/2022",
+        "payment_mode": "PayU",
+        "order_state": "Paid",
+        "payment_date": "10\/14\/2022"
+    },
+    {
+        "Marca temporal": "10\/14\/2022 14:05:18",
+        "concept": "Compra por app",
+        
+        "value": 217000,
+        "description": "Uniforme presentación completo, Tula wolves, Termo wolves",
+        "payment_term": "11\/04\/2022",
+        "payment_mode": "Transferencia",
+        "order_state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/14\/2022 14:08:15",
+        "concept": "Compra por app",
+        
+        "value": 40000,
+        "description": "Camisa hombre",
+        "payment_term": "11\/04\/2022",
+        "payment_mode": "PayU",
+        "order_state": "Paid",
+        "payment_date": "10\/14\/2022"
+    }
+]

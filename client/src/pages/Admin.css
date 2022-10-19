@@ -1,0 +1,57 @@
+.admin__container {
+    display: flex;
+    width: 85vw;
+    height: 100vh;
+}
+
+.admin__navbar {
+    min-width: 15vw;
+    height: 100vh;
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+    position: fixed;
+}
+
+.admin__title {
+    margin: 0;
+}
+
+.navbar__image {
+    width: 150px;
+    border-radius: 20px;
+    align-self: center;
+    box-shadow: var(--box-shadow);
+}
+
+.navbar__btn {
+    width: 90%;
+    height: 4rem;
+    border: transparent;
+    background-color: #fff;
+    margin: 0 auto;
+    transition: all .5s ease-in-out;
+}
+
+.navbar__btn-clicked {
+    width: 100%;
+    border: transparent;
+    box-shadow: none;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 1rem 0 0 1rem;
+    transition: all .5s ease-in-out;
+}
+
+.admin__content {
+    margin-left: 16vw;
+}
+
+.cards__container {
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}

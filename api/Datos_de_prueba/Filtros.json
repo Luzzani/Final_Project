@@ -1,0 +1,14 @@
+[
+  {"id": 1, "name":"hombre"}, 
+  {"id": 2, "name":"mujer"},
+  {"id": 3, "name":"unisex"},
+  {"id": 4, "name": "camisa"},
+  {"id": 5, "name": "azul"},
+  {"id": 6, "name": "sudadera"},
+  {"id": 7, "name": "pantaloneta"},
+  {"id": 8, "name": "licra"},
+  {"id": 9, "name": "buso"},
+  {"id": 11, "name": "termo"},
+  {"id": 12, "name": "tula"},
+  {"id": 13, "name": "polo"}
+]

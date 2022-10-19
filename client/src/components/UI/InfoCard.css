@@ -1,0 +1,22 @@
+.card__info {
+    background-color: var(--color-bg);
+    width: 30vw;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+
+}
+
+.card__info p,
+.card__info h3,
+.card__info h2 {
+    text-shadow: var(--text-shadow);
+    color: var(--color-white);
+}
+
+.card__image {
+    float: right;
+    width: 24%;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+}

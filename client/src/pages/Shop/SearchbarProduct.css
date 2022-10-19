@@ -1,0 +1,17 @@
+.search__container {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-bg);
+    min-height: 10vh;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.search__container button,
+.search__container select {
+    cursor: pointer;
+    height: fit-content;
+    padding: .2rem;
+    border-radius: 7px;
+    font-weight: bolder;
+}

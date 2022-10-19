@@ -1,0 +1,112 @@
+[
+    {
+     "Marca temporal": "10\/13\/2022 11:37:37",
+     "name": "Camisa hombre ",
+     "price": 40000,
+     "description": "Camisa azul con mangas, requerida para torneos",
+     "image": "https://drive.google.com/uc?export=view&id=128ydjXx46I_wQnOo2ecLJnwooOh9WwvW",
+     "modifiers": [{"size": ["XS","S","M","L","XL","XXL"]},{"Número camisa":""},{"Apodo camisa":""}],
+     "FilterTags": [4,1,5],
+     "isOrder": true,
+     "stock": "0",
+     "state": true,
+     "paymentTerm": 30
+    },
+    {
+     "Marca temporal": "10\/13\/2022 11:39:58",
+     "name": "Camisa mujer",
+     "price": 400000,
+     "description": "Camisa azul con mangas, requerida para torneos",
+     "image": "https://drive.google.com/uc?export=view&id=1F_YWd3bd8Pn8MhIH9cxo847wxCMheFCy",
+     "modifiers": [{"size": ["XS","S","M","L","XL","XXL"]},{"Número camisa":""},{"Apodo camisa":""}],
+     "FilterTags": [2,5,4],
+     "isOrder": true,
+     "state": true,
+     "paymentTerm": 30
+    },
+    {
+     "Marca temporal": "10\/13\/2022 11:43:12",
+     "name": "Pantaloneta",
+     "price": 40000,
+     "description": "Pantaloneta arriba de la rodilla con numero y logo wolves",
+     "image": "https://drive.google.com/uc?export=view&id=1pshNbO9eaH8iJurYWbsVSfuySNgyzqz3",
+     "modifiers": [{"size": ["Talla única"]},{"Número camisa":""}],
+     "FilterTags": [7,1,2,3],
+     "isOrder": true,
+     "state": true,
+     "paymentTerm": 30
+    },
+    {
+     "Marca temporal": "10\/13\/2022 11:49:35",
+     "name": "Licra corta",
+     "price": 37000,
+     "description": "Licra corta para mujer con número y logo wolves",
+     "image": "https://drive.google.com/uc?export=view&id=1XsT3prZ1jBP-9ZlamVCVJ0J0ZjIQTb9D",
+     "modifiers": [{"size": ["Talla única"]},{"Número":""}],
+     "FilterTags": [8,2],
+     "isOrder": true,
+     "state": true,
+     "paymentTerm": 30
+    },
+    {
+     "Marca temporal": "10\/13\/2022 11:52:21",
+     "name": "Buso presentación",
+     "price": 80000,
+     "description": "Buso uniforme de presentación unisex",
+     "image": "https://drive.google.com/uc?export=view&id=1uRygcJcUSj9jVlKvv_vOy54OCz79KdKR",
+     "modifiers": [{"size": ["XS","S","M","L","XL","XXL"]}],
+     "FilterTags": [9, 1, 2, 3],
+     "isOrder": true,
+     "state": true,
+     "paymentTerm": 15
+    },
+    {
+     "Marca temporal": "10\/13\/2022 11:53:44",
+     "name": "Termo wolves",
+     "price": 26000,
+     "description": "Termo 1 litro con logo de wolves ",
+     "image": "https://drive.google.com/uc?export=view&id=1vEcOlvBCT5BELKOeQ0jrqMdR29okpjf2",
+     "FilterTags": [11,3],
+     "isOrder": false,
+     "stock": 25,
+     "state": true,
+     "paymentTerm": 20
+    },
+    {
+     "Marca temporal": "10\/13\/2022 11:55:37",
+     "name": "Tula wolves",
+     "price": 26000,
+     "description": "Tula con logo wolves",
+     "image": "https://drive.google.com/uc?export=view&id=1R7qt_J9kBs0A6lAG52jz6SPUBMIlvIn9",
+     "FilterTags": [12,3],
+     "isOrder": false,
+     "stock": 15,
+     "state": false,
+     "paymentTerm": 20
+    },
+    {
+     "Marca temporal": "10\/13\/2022 11:58:06",
+     "name": "Camisa acompañante",
+     "price": 35000,
+     "description": "Camisa para padres y acompañantes que quieran apoyar al club",
+     "image": "https://drive.google.com/uc?export=view&id=14ztQoExqd4OxkEAaxMC_ZHe-sjANdP_o",
+     "modifiers": [{"size": ["XS","S","M","L","XL","XXL"]}],
+     "FilterTags": [4,1,5,2,3],
+     "isOrder": false,
+     "stock": 20,
+     "state": true,
+     "paymentTerm": 10
+    },
+    {
+     "Marca temporal": "10\/13\/2022 12:09:06",
+     "name": "Uniforme presentación completo ",
+     "price": 165000,
+     "description": "Promoción de uniforme de presentación completo con camisa tipo polo, sudadera y buso ",
+     "image": "https://drive.google.com/uc?export=view&id=1_AgLNQonkhpDjJaWBxPcM5cistdRIyuQ",
+     "modifiers": [{"hoodie_size": ["XS","S","M","L","XL","XXL"]},{"shirt_size": ["XS","S","M","L","XL","XXL"]},{"sweater": ["S","M","L","XL"]}],
+     "FilterTags": [9,4,13,6,1,2,3],
+     "isOrder": true,
+     "state": false,
+     "paymentTerm": 45
+    }
+]

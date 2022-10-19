@@ -1,0 +1,24 @@
+.paginated__container {
+    box-shadow: var(--box-shadow);
+    display: flex;
+    gap: 2rem;
+    padding: .5rem;
+    background-color: var(--color-bg);
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.paginated__number {
+    border-radius: .3rem;
+    box-shadow: var(--box-shadow);
+    border: 1px solid transparent;
+}
+
+.paginated__number:hover {
+    cursor: pointer;
+}
+
+.paginated__isActive {
+    background-color: var(--color-bg);
+    color: aliceblue;
+}

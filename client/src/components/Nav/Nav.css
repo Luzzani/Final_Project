@@ -1,0 +1,37 @@
+.nav__container {
+    width: 100vw;
+    height: 12vh;
+    background-color: var(--color-bg);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.nav__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav__logo img {
+    width: 80px;
+    height: 80px;
+    margin-left: 4rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+}
+
+.nav__container-links {
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav__login,
+.nav__links {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,57 @@
+.register__container {
+    background-color: rgba(31, 30, 19, 0.866);
+    padding: 1rem 0 1rem 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__title {
+    color: #fff;
+}
+
+
+.register__form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    gap: .7rem;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.register__container .register__form button {
+    width: fit-content;
+    align-self: center;
+}
+
+
+.register__form input {
+    padding: .2rem;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.register__form input:focus {
+    background-color: rgba(223, 206, 200, 0.501)
+}
+
+/* .register__form .input__error {
+    background-color: rgba(246, 10, 10, 0.655);
+    color: #fff;
+} */
+
+.register__form label {
+    font-weight: bold;
+}
+
+.register__backbtn {
+    position: absolute;
+    top: 2rem;
+    font-weight: bold;
+    font-size: var(--font-size-p);
+}

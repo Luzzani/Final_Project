@@ -1,16 +1,13 @@
-import logo from './images/volley_ball.png';
-import './App.css';
+import MainRoutes from "./Rutas/MainRotues";
+import { Provider } from "react-redux";
+import { store } from "./redux/store/store";
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This site is currently under construction...
-        </p>        
-      </header>
-    </div>
+    <Provider store={store}>
+      <MainRoutes />
+    </Provider>
   );
 }
 

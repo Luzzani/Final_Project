@@ -1,0 +1,90 @@
+[
+    {
+        "Marca temporal": "10\/13\/2022 12:29:50",
+        "name": "Cumpleaños del club",
+        "location": "&lt;iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d15864.880609866124!2d-75.5885154!3d6.2346848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2fe6017523f4d228!2sUnidad%20Deportiva%20de%20Bel%C3%A9n%20Andr%C3%A9s%20Escobar%20Saldarriaga!5e0!3m2!1ses!2sco!4v1665681898411!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"&gt;&lt;\/iframe&gt;",
+        "description": "El club cumple un año, tendremos ventas de distintos productos, bingo y mini torneos ",
+        "repetitive": false,
+        "date": "10\/16\/2022",
+        "start": "11:00:00 AM",
+        "end": "5:00:00 PM",
+        "state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/13\/2022 12:44:40",
+        "name": "Torneo",
+        "location": "&lt;iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3966.0624812894803!2d-75.59036918541108!3d6.255499295472111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290f256c744d%3A0x28343bf86570664a!2sColiseo%20de%20Voleibol%20Yesid%20Santos!5e0!3m2!1ses!2sco!4v1665682973962!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"&gt;&lt;\/iframe&gt;",
+        "description": "Torneo ciudad Medellín contra La campiña ",
+        "repetitive": false,
+        "date": "10\/23\/2022",
+        "start": "1:00:00 PM",
+        "end": "2:00:00 PM",
+        "state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/13\/2022 12:47:10",
+        "name": "Grupo libre masculino (entrenamiento)",
+        "location": "&lt;iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d15864.880609866124!2d-75.5885154!3d6.2346848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2fe6017523f4d228!2sUnidad%20Deportiva%20de%20Bel%C3%A9n%20Andr%C3%A9s%20Escobar%20Saldarriaga!5e0!3m2!1ses!2sco!4v1665681898411!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"&gt;&lt;\/iframe&gt;",
+        "description": "Entrenamiento grupo masculino libre competitivo",
+        "repetitive": true,
+        "days": "Monday, Wednesday",
+        "start": "8:20:00 PM",
+        "end": "10:40:00 PM",
+        "state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/13\/2022 12:48:58",
+        "name": "Partido amistoso ",
+        "location": "&lt;iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3966.114056885322!2d-75.60806708541105!3d6.2486982954769745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44299d75875819%3A0xbb59eda183f6450f!2sLiceo%20Salazar%20y%20Herrera!5e0!3m2!1ses!2sco!4v1665683281899!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"&gt;&lt;\/iframe&gt;",
+        "description": "Amistoso contra Salazar y Herrera",
+        "repetitive": false,
+        "date": "10\/09\/2022",
+        "start": "4:00:00 PM",
+        "end": "6:00:00 PM",
+        "state": "Finished"
+    },
+    {
+        "Marca temporal": "10\/13\/2022 12:50:36",
+        "name": "Grupo libre femenino (entreno)",
+        "location": "&lt;iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d15864.880609866124!2d-75.5885154!3d6.2346848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2fe6017523f4d228!2sUnidad%20Deportiva%20de%20Bel%C3%A9n%20Andr%C3%A9s%20Escobar%20Saldarriaga!5e0!3m2!1ses!2sco!4v1665681898411!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"&gt;&lt;\/iframe&gt;",
+        "description": "Entrenamiento grupo libre femenino competitivo",
+        "repetitive": true,
+        "days": "Tuesday, Thursday",
+        "start": "7:00:00 PM",
+        "end": "10:00:00 PM",
+        "state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/13\/2022 12:54:47",
+        "name": "Semifinal PP masculino",
+        "location": "&lt;iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1982.9429342635478!2d-75.575284!3d6.2787327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44296f24acc435%3A0x27d2d699e159eda!2sCancha%20basketball!5e0!3m2!1ses!2sco!4v1665683619208!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"&gt;&lt;\/iframe&gt;",
+        "description": "Partido contra Atlas, llevar uniforme PP ",
+        "repetitive": false,
+        "date": "10\/23\/2022",
+        "start": "7:00:00 PM",
+        "end": "10:00:00 PM",
+        "state": "Postponed"
+    },
+    {
+        "Marca temporal": "10\/13\/2022 12:57:49",
+        "location": "",
+        "name": "Reunión ",
+        "description": "link: https:\/\/meet.google.com\/aaj-xmmc-sfc",
+        "repetitive": false,
+        "date": "10\/15\/2022",
+        "start": "10:00:00 AM",
+        "end": "12:00:00 PM",
+        "state": "Pending"
+    },
+    {
+        "Marca temporal": "10\/13\/2022 13:36:34",
+        "name": "Partido ciudad Medellín ",
+        "location": "&lt;iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3966.0624812894803!2d-75.59036918541108!3d6.255499295472111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290f256c744d%3A0x28343bf86570664a!2sColiseo%20de%20Voleibol%20Yesid%20Santos!5e0!3m2!1ses!2sco!4v1665682973962!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"&gt;&lt;\/iframe&gt;",
+        "description": "Partido contra Buffalos",
+        "repetitive": false,
+        "date": "10\/09\/2022",
+        "start": "1:00:00 PM",
+        "end": "2:00:00 PM",
+        "state": "Finished"
+    }
+]

@@ -1,0 +1,102 @@
+.form__product {
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+
+.form__product::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.form__product::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+.form__product::-webkit-scrollbar-button:increment,
+.form__product::-webkit-scrollbar-button {
+    display: none;
+}
+
+.form__product::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.form__product::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 20px;
+    border: 2px solid var(--color-bg)
+}
+
+.form__product::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.form__product button {
+    width: fit-content;
+    align-self: center;
+}
+
+.form__product .close__button {
+    align-self: flex-end;
+}
+
+.form__product input {
+    padding: .2rem;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.form__product select {
+    border-radius: 7px;
+}
+
+.form__product input:focus {
+    background-color: rgba(223, 206, 200, 0.501)
+}
+
+
+.form__product label {
+    font-weight: bold;
+}
+
+/* 
+.product__input-error {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+} */
+
+.create__product-title {
+    text-align: center;
+}
+
+/*------------------------------PRODUCT PROPERTIES COMPONENT-------------------------------*/
+
+.product__charge-image {
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: var(--box-shadow);
+    padding: .2rem;
+    width: fit-content;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.product__image-create {
+    width: 200px;
+    border-radius: 25%;
+}
+
+/*------------------------------MODIFIERS COMPONENT-------------------------------*/
+
+.modifier__container-btn {
+    display: flex;
+    gap: 2rem;
+}
