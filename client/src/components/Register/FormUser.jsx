@@ -6,9 +6,8 @@ import { auth } from "../../firebase/firebase.config";
 
 import { setUserFirestore } from "../../utils/firestore";
 
-import { useDispatch,useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { createPlayer } from "../../redux/actions/player";
-
 
 import "./FormUser.css";
 
@@ -58,8 +57,15 @@ function FormUser() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    dispatch(createPlayer( {personalInfo:{ ...userInput, uid: user.uid, email: user.email } } ));
-    setUserFirestore({ ...userInput, uid: user.uid, email: user.email }); 
+    dispatch(
+      createPlayer(
+        { personalInfo: { ...userInput, uid: user.uid, email: user.email } },
+        { id: user.uid }
+      )
+    );
+
+    setUserFirestore({ ...userInput, uid: user.uid, email: user.email });
+    
     navigate("/");
   };
 

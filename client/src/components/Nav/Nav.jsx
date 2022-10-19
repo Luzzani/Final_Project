@@ -16,7 +16,6 @@ function Nav() {
   const handleLogout = () => {
     dispatch(logout());
   };
-  console.log(userInfoFirestore);
 
   return (
     <nav className="nav__container">

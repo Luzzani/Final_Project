@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
 import { collection, getDocs } from "firebase/firestore";
@@ -8,12 +7,31 @@ import { firestore } from "../firebase/firebase.config";
 import { getAllInfoUsers } from "../redux/actions/auth";
 
 import InfoCard from "../components/UI/InfoCard";
-import FOTO from "../images/icono-marco-fotos-foto.webp";
 import "./Admin.css";
-
-import { validateClick } from "../utils/validateClick";
+import DashNabvar from "./DashNabvar";
+import Navphone from "../components/Nav/Navphone";
 
 function Admin() {
+  const [isDesktop, setDesktop] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth > 1450) {
+      setDesktop(true);
+    } else {
+      setDesktop(false);
+    }
+
+    const updateMedia = () => {
+      if (window.innerWidth > 1450) {
+        setDesktop(true);
+      } else {
+        setDesktop(false);
+      }
+    };
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, []);
+
   const dispatch = useDispatch();
   const [clickChoice, setClickChoice] = useState({
     isPerfil: true,
@@ -38,100 +56,13 @@ function Admin() {
   }, [dispatch, userInfoFirestore]);
 
   return (
-    <div className="dashboard__container">
-      <div className="admin__navbar">
-        <img
-          className="navbar__image"
-          src={userInfoFirestore.image || FOTO}
-          alt="foto de usuario"
-        />
-        <button
-          className={
-            clickChoice.isPerfil
-              ? "navbar__btn navbar__btn-clicked"
-              : "navbar__btn"
-          }
-          onClick={() => validateClick("perfil", setClickChoice)}
-        >
-          Perfil
-        </button>
-        {userInfoFirestore.isAdmin && (
-          <button
-            className={
-              clickChoice.isPagos
-                ? "navbar__btn navbar__btn-clicked"
-                : "navbar__btn"
-            }
-            onClick={() => validateClick("pagos", setClickChoice)}
-          >
-            Administracion de pagos
-          </button>
-        )}
-        {!userInfoFirestore.isAdmin && (
-          <button
-            className={
-              clickChoice.isGrupo
-                ? "navbar__btn navbar__btn-clicked"
-                : "navbar__btn"
-            }
-            onClick={() => validateClick("grupo", setClickChoice)}
-          >
-            Mi grupo
-          </button>
-        )}
-        {!userInfoFirestore.isAdmin && (
-          <button
-            className={
-              clickChoice.isPagos
-                ? "navbar__btn navbar__btn-clicked"
-                : "navbar__btn"
-            }
-            onClick={() => validateClick("pagos", setClickChoice)}
-          >
-            Pagos
-          </button>
-        )}
-        {userInfoFirestore.isAdmin && (
-          <button
-            className={
-              clickChoice.isSocios
-                ? "navbar__btn navbar__btn-clicked"
-                : "navbar__btn"
-            }
-            onClick={() => validateClick("socios", setClickChoice)}
-          >
-            Socios
-          </button>
-        )}
-        <button
-          className={
-            clickChoice.isCalendario
-              ? "navbar__btn navbar__btn-clicked"
-              : "navbar__btn"
-          }
-          onClick={() => validateClick("calendario", setClickChoice)}
-        >
-          Calendario
-        </button>
-        {userInfoFirestore.isAdmin && (
-          <button
-            className={
-              clickChoice.isGrupos
-                ? "navbar__btn navbar__btn-clicked"
-                : "navbar__btn"
-            }
-            onClick={() => validateClick("grupos", setClickChoice)}
-          >
-            Grupos
-          </button>
-        )}
-        <Link to={"/"}>
-          <button className="navbar__btn">Inicio</button>
-        </Link>
-        <Link to={"/products"}>
-          <button className="navbar__btn">Tienda</button>
-        </Link>
-      </div>
+    <>
+      {isDesktop ? (
+        <DashNabvar setClickChoice={setClickChoice} clickChoice={clickChoice} />
+      ) : (
+        <Navphone setClickChoice={setClickChoice} isDashboard={true} />
+      )}
+
       <div className="admin__content">
         <h1 className="admin__title">Bienvenid@: {userInfoFirestore?.email}</h1>
         {clickChoice.isPerfil && (
@@ -156,7 +87,7 @@ function Admin() {
           </div>
         )}
       </div>
-    </div>
+    </>
   );
 }
 

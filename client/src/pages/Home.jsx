@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 
 import Nav from "../components/Nav/Nav";
-import FOTONIÑOS from "../images/niños.jpg";
-import FOTOJOVENES from "../images/jovenes.jpg";
-import FOTOADULTOS from "../images/adultos.jpg";
+// import FOTONIÑOS from "../images/niños.jpg";
+// import FOTOJOVENES from "../images/jovenes.jpg";
+// import FOTOADULTOS from "../images/adultos.jpg";
 
 import { getUserFirestore } from "../redux/actions/auth";
 
@@ -12,8 +12,29 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../firebase/firebase.config.js";
 
 import "./Home.css";
+import Navphone from "../components/Nav/Navphone";
 
 function Home() {
+  const [isDesktop, setDesktop] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth > 1450) {
+      setDesktop(true);
+    } else {
+      setDesktop(false);
+    }
+
+    const updateMedia = () => {
+      if (window.innerWidth > 1450) {
+        setDesktop(true);
+      } else {
+        setDesktop(false);
+      }
+    };
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, []);
+
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -28,11 +49,13 @@ function Home() {
 
   return (
     <>
-      <Nav />
+      {!isDesktop ? <Navphone /> : <Nav />}
+
       <div className="home__container">
         <h1>Club Wolves -Voleyball</h1>
       </div>
-      <div className="home__gruops">
+      <div className="home__container-carrousel"></div>
+      {/* <div className="home__gruops">
         <div className="home__gruop">
           <h3>Chicos</h3>
           <h5>6 a 12 años</h5>
@@ -59,11 +82,11 @@ function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Temporibus, odit molestias! Quod, dignissimos pariatur totam ea
               inventore neque consequuntur odit saepe sint temporibus, natus
-              eligendi aliquid autem possimus non veniam.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus, odit molestias! Quod, dignissimos pariatur totam ea
-              inventore neque consequuntur odit saepe sint temporibus, natus
-              eligendi aliquid autem possimus non veniam.
+              eligendi aliquid autem possimus non veniam. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Temporibus, odit molestias!
+              Quod, dignissimos pariatur totam ea inventore neque consequuntur
+              odit saepe sint temporibus, natus eligendi aliquid autem possimus
+              non veniam.
             </p>
           </div>
         </div>
@@ -75,16 +98,16 @@ function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Temporibus, odit molestias! Quod, dignissimos pariatur totam ea
               inventore neque consequuntur odit saepe sint temporibus, natus
-              eligendi aliquid autem possimus non veniam.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus, odit molestias! Quod, dignissimos pariatur totam ea
-              inventore neque consequuntur odit saepe sint temporibus, natus
-              eligendi aliquid autem possimus non veniam.
+              eligendi aliquid autem possimus non veniam. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Temporibus, odit molestias!
+              Quod, dignissimos pariatur totam ea inventore neque consequuntur
+              odit saepe sint temporibus, natus eligendi aliquid autem possimus
+              non veniam.
             </p>
             <img src={FOTOADULTOS} alt="adultos del club" />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

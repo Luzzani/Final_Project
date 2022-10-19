@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-.card__title-recipe {
+.card__title-product {
     font-size: 1.5rem;
     color: var(--color-white);
     text-shadow: var(--text-shadow);
@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.card__healthscore {
+.card__price {
     width: 100%;
     font-size: var(--font-size-p);
     text-align: center;
