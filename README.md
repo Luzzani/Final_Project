@@ -2,6 +2,15 @@
 
 demo> https://finalproject-one.vercel.app/
 
+INTEGRANTES: 
+- https://github.com/CesarRincon 
+- https://github.com/Anfevasa
+- https://github.com/Andres21y
+- https://github.com/Diegomendo00
+- https://github.com/Luzzani
+- https://github.com/aquiles-igarzabal
+- https://github.com/medinahj21
+
 Esta web esta construida para un club de voley que enfrentaba problemas para organizarse, tanto con sus socios como con sus gastos e ingresos. 
 
 Para facilitar la gestion, se facilito una web donde los usuarios podran registrarse, pudiendo tener diferentes roles, sea un usuario registrado sin inscribirse a un grupo de voley, un jugador inscrito, o un administrador.
@@ -25,3 +34,5 @@ Mediante estos roles se accede a un dashboard, con contenido relevante para cada
 ![grup al](https://user-images.githubusercontent.com/90403563/200423592-3fac507d-d4cc-4f32-852f-e27bd4287081.jpg)
 
 ![image](https://user-images.githubusercontent.com/90403563/200425074-f3fff282-548f-433c-8faf-9fcbbf5c1ea2.png)
+
+
